@@ -1,0 +1,24 @@
+{
+  "name": "graphql-learning-project",
+  "version": "1.0.0",
+  "description": "A simple GraphQL server for learning purposes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "nodejs"
+  ],
+  "author": "GraphQL Learner",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
